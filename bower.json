@@ -1,0 +1,16 @@
+{
+    "name": "clipboard-button",
+    "version": "1.0.0",
+    "main": "clipboard-button.js",
+    "description": "Copy text to clipboard by clicking a button, using only vanilla javascript without Flash.",
+    "ignore": [
+        "demo",
+        "test",
+        ".gitignore",
+        "bower.json",
+        "karma.conf.js",
+        "LICENSE",
+        "package.json",
+        "README.md"
+    ]
+}

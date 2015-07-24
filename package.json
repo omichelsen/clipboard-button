@@ -1,0 +1,29 @@
+{
+  "name": "clipboard-button",
+  "version": "1.0.0",
+  "description": "Copy text to clipboard by clicking a button, using only vanilla javascript without Flash.",
+  "main": "clipboard-button.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "author": "Ole Michelsen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omichelsen/clipboard-button.git"
+  },
+  "keywords": [
+    "clipboard",
+    "copy",
+    "paste",
+    "selection"
+  ],
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.37",
+    "karma-coverage": "^0.4.2",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-jasmine": "^0.3.6",
+    "phantomjs": "^1.9.17"
+  }
+}

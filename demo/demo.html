@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>clipboard-button demo</title>
+    </head>
+    <body>
+
+        <h1>Click button to copy text to clipboard</h1>
+
+        <p>
+            <input type="text" value="textToCopy" readonly>
+            <button id="myButton" data-clipboard-text="textToCopy">Copy</button>
+        </p>
+
+        <script src="../clipboard-button.js"></script>
+        <script>
+
+            function success() {
+                console.log('Copied!');
+            };
+
+            function fail(err) {
+                console.error('Error!', err);
+            };
+
+            var cpb = clipboardButton('#myButton', success, fail);
+
+        </script>
+    </body>
+</html>
