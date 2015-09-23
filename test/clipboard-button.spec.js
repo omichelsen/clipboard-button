@@ -38,7 +38,12 @@ describe('clipboard-button', function () {
         beforeEach(function () {
             cpb = clipboardButton(elm, callbacks.success, callbacks.fail);
         });
-        it('should fail on click in Firefox', function () {
+        it('should invoke success callback', function () {
+            elm.click();
+            expect(callbacks.success).toHaveBeenCalled();
+        });
+        it('should invoke fail callback', function () {
+            spyOn(document.body, 'appendChild').and.throwError('fake');
             elm.click();
             expect(callbacks.fail).toHaveBeenCalled();
         });
