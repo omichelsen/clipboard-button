@@ -1,6 +1,6 @@
 {
   "name": "clipboard-button",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Copy text to clipboard by clicking a button, using only vanilla javascript without Flash.",
   "main": "clipboard-button.js",
   "scripts": {

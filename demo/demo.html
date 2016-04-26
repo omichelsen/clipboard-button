@@ -13,8 +13,14 @@
             <button id="myButton" data-clipboard-text="textToCopy">Copy</button>
         </p>
 
+        <p>
+            Supported: <span id="supported"></span>
+        </p>
+
         <script src="../clipboard-button.js"></script>
         <script>
+
+            document.getElementById('supported').innerText = clipboardButton.supported;
 
             function success() {
                 console.log('Copied!');

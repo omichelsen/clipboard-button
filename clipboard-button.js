@@ -36,7 +36,7 @@
         document.body.removeChild(node);
     }
 
-    return function (target, onSuccess, onError) {
+    function clipboardButton(target, onSuccess, onError) {
         var elm;
 
         if (typeof target === 'string') {
@@ -68,5 +68,9 @@
             element: elm
         };
     };
+
+    clipboardButton.supported = 'queryCommandSupported' in document && document.queryCommandSupported('copy');
+
+    return clipboardButton;
 
 }));

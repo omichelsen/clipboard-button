@@ -48,6 +48,9 @@ You can supply optional callback methods to be called for the `success` and `err
 
 To clean up all event handlers and resources, you can call `cpb.destroy()`.
 
+To detect whether the browser is supported you can check the static property `clipboardButton.supported`.
+
+
 [travis-image]: https://img.shields.io/travis/omichelsen/clipboard-button/master.svg
 [travis-url]: https://travis-ci.org/omichelsen/clipboard-button
 [coveralls-image]: https://img.shields.io/coveralls/omichelsen/clipboard-button/master.svg
