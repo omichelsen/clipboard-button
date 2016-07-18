@@ -10,10 +10,10 @@
 }(this, function () {
 
     function createNode(text) {
-        var node = document.createElement('span');
+        var node = document.createElement('textarea');
+        node.textContent = text;
         node.style.position = 'absolute';
         node.style.left = '-10000px';
-        node.textContent = text;
         return node;
     }
 
