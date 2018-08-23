@@ -1,5 +1,7 @@
 # clipboard-button
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/omichelsen/clipboard-button.svg)](https://greenkeeper.io/)
+
 [![Build Status][travis-image]][travis-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
 
